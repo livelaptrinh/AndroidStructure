@@ -20,6 +20,6 @@ public abstract class BasePresenter<T extends IView> {
     }
 
     public void inject(T view){
-        this.view = view;
+        this.view = view;//
     }
 }
